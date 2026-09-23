@@ -32,6 +32,30 @@ It focuses on planning, typed tools, permissions, approvals, memory, verificatio
 
 https://github.com/getkcoin-alt/-scrappy-os
 
+### Vault Zeta 🌠
+This one is harder to explain in one line.
+
+**Vault Zeta is the continuity layer I want future AI systems to grow around** — somewhere between persistent memory, system state, identity continuity and a long-term record of what an AI has learned, decided and become.
+
+Right now, the practical direction is much less sci-fi than the name sounds: preserving structured state across sessions, tracking context and provenance, keeping long-running systems from "starting from zero" every time, and giving agents a durable place to reason from instead of treating every interaction as disposable.
+
+Long term, I think continuity will matter just as much as raw model intelligence.
+
+So yes, internally I sometimes call Vault Zeta **the daddy of the future** 😅🌠
+
+Still early. Still experimental. But I’m taking it seriously.
+
+### Scrappy Forge
+Scrappy Forge is the other hand.
+
+It’s a local-first terminal coding agent I’ve been building around an execution loop, context compaction, persistent project memory, permission-aware tools, plugins, MCP connections, verification and recovery.
+
+The point is not to make another chatbot that writes code snippets. I want it to inspect a real project, work through a task, use tools, verify what changed, and leave enough evidence that I can understand what it actually did.
+
+This repo is private for now.
+
+**#iykyk**
+
 ### DumperTrack
 A transport management system for trips, vehicles, expenses, partners and financial tracking.
 
