@@ -35,39 +35,36 @@ https://github.com/getkcoin-alt/-scrappy-os
 ### Vault Zeta 🌠
 This one is harder to explain in one line.
 
-**Vault Zeta is the continuity layer I want future AI systems to grow around** — somewhere between persistent memory, system state, identity continuity and a long-term record of what an AI has learned, decided and become.
+**Vault Zeta is the continuity layer I want future AI systems to grow around** — persistent memory, provenance, durable mission state, and a way for long-running systems to stop waking up from zero.
 
-Some of it is already real, not just a diagram.
+The first public alpha is live now. It already has typed memory, source fingerprints and staleness, FTS5 retrieval, an append-only mission journal and revisioned mission snapshots.
 
-The current implementation direction includes:
-- episodic, semantic, procedural, failure, entity and preference memory
-- provenance and confidence attached to memory
-- source fingerprints so old knowledge can be marked stale when the source changes
-- hybrid retrieval using lexical search, optional embeddings, entities, scope and recency
-- durable mission snapshots and an append-only event journal
-- resumable task graphs
-- typed pause, resume, correction and priority-change events while a mission is running
-
-The important part is that memory does **not** become permission. Remembering that a user once approved something is not authority to do it again.
+The part I care about most: memory does **not** become permission. Remembering that a user approved something once is not authority to do it again.
 
 Long term, I think continuity will matter just as much as raw model intelligence.
 
-So yes, internally I sometimes call Vault Zeta **the daddy of the future** 😅🌠
+So yes, I still call Vault Zeta **the daddy of the future** 😅🌠
 
-I’m separating it into something people can inspect and contribute to instead of keeping the idea buried inside larger projects.
+https://github.com/getkcoin-alt/vault-zeta
+
+It’s open for people who want to question the architecture, break the assumptions, improve retrieval, or help turn the idea into something boringly reliable.
 
 ### Scrappy Forge
 Scrappy Forge is the other hand.
 
-It’s a local-first terminal coding agent I’ve been building around an execution loop, context compaction, persistent project memory, permission-aware tools, plugins, MCP connections, verification and recovery.
+It’s a local-first terminal coding agent built around an execution loop, context compaction, persistent project memory, permission-aware tools, plugins, MCP, verification and recovery.
 
-The point is not to make another chatbot that writes code snippets. I want it to inspect a real project, work through a task, use tools, verify what changed, and leave enough evidence that I can understand what it actually did.
+The source is public now:
 
-There is already an **early-access build** you can inspect and install:
+https://github.com/getkcoin-alt/scrappy_forge
+
+There is also an early-access build:
 
 https://forge-hub-production.up.railway.app
 
-The source repo is still private while I clean up the contribution/release surface. I plan to open it once the public-repo basics are in place and the current CI situation is clean.
+I’m calling it **public beta**, not “production-ready”. There is a lot already working, but I’d rather let tests, contributors and real usage earn the bigger words.
+
+Contributions are open. If you understand why permission boundaries, evidence and recovery matter more than a flashy agent demo...
 
 **#iykyk**
 
